@@ -13,6 +13,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Container(height: double.infinity,
         child: Image(
+
           image: AssetImage('assets/images/img.png'),
           fit: BoxFit.cover,
         ),
