@@ -12,7 +12,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(height: double.infinity,
-        child: Image(
+        child: const Image(
 
           image: AssetImage('assets/images/img.png'),
           fit: BoxFit.cover,
